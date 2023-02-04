@@ -7,7 +7,7 @@ namespace JuhaKurisu.PopoTools.Ninin
     {
         public Task<bool> Connect();
         public Task<bool> Join();
-        public Task<bool> SendInput(NininInput client);
-        public Task<bool> FetchInputs(out ReadOnlyCollection<NininInput> inputs);
+        public Task<bool> SendInput(INininInput client);
+        public Task<bool> FetchInputs(out ReadOnlyCollection<INininInput> inputs);
     }
 }
